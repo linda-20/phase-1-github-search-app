@@ -1,13 +1,66 @@
-#main {
+body{
+  background-color: bisque;
+  margin: 0;
+          padding: 0;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(24, 134, 134);
+}
+
+p {
+  text-align: center;
+}
+
+#searchcontainer {
+  text-align: center;
+}
+
+button {
+ 
+  margin-top: 50px;
+  border-radius: 60px;
+  background-color: rgb(71, 209, 209);
+  height: 70px;
+  width: 200px;
+}
+
+input {
+  border-radius: 70px;
+  height: 60px;
+  width: 500px;
+}
+
+#search-input {
+  text-align: center;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
 }
-
-#github-container {
+.form-group {
+  margin-bottom: 10px;
+}
+.logo {
   display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-ul {
-  list-style: none;
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.avatar-img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
 }
